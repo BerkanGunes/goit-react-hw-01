@@ -1,0 +1,24 @@
+/* src/components/TransactionHistory/TransactionHistory.module.css */
+.transactionTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.transactionTable th {
+  background-color: #4CAF50;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 12px 15px;
+}
+
+.transactionTable td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.transactionTable tr:nth-child(even) {
+  background-color: #f2f2f26e;
+}
+
